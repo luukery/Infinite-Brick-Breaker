@@ -1,0 +1,547 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671098024232533, "dur":1178, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024233717, "dur":44, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671098024233771, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671098024233786, "dur":333, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671098024234142, "dur":655, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024234797, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632575, "dur":288, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632863, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632900, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632904, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632912, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632913, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632920, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632922, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632930, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632932, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632939, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632941, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632947, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632949, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632955, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632956, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632963, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632965, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632971, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632973, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632980, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632982, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632987, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632989, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024632997, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024633019, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024633044, "dur":2083, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671098024234248, "dur":554, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024234803, "dur":4376, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024239189, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671098024239194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024240404, "dur":418, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671098024240827, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671098024240882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024241050, "dur":8274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671098024249327, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671098024249479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024249980, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671098024252873, "dur":2789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024255667, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024255991, "dur":59439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024315488, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1671098024315615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024315903, "dur":15169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1671098024331123, "dur":22044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024353174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024353196, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024355128, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024355313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024355321, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024356208, "dur":29890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024386171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024386182, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024387337, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024387717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024387723, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024389137, "dur":24682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024413825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024413836, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024415059, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024415221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024415230, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024416142, "dur":19496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024435645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024435656, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024436702, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024436965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024436991, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024438547, "dur":38593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024477143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024477153, "dur":5155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024482359, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024482570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024482579, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024484094, "dur":43295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024527392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024527399, "dur":4809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024532256, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024532649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024532656, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024534076, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024534298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024534305, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024537989, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024538154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024538162, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024540996, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024541149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024541156, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024542306, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024542542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024542551, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024543595, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024544317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024544324, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024545778, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024545924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024545932, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671098024547025, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1671098024547152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024547553, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1671098024548513, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671098024548563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671098024548569, "dur":82533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671098024631152, "dur":1421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024234355, "dur":508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024234863, "dur":4328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024239192, "dur":581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671098024239777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024241224, "dur":9274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671098024250547, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1671098024250647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024250654, "dur":65473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1671098024316174, "dur":25973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024342153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024342262, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024344546, "dur":23263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024367813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024367821, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024369867, "dur":67799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024437670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024437695, "dur":10988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024448749, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024448925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024448956, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024452066, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024452212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024452220, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024453520, "dur":85132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024539360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671098024539369, "dur":48918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671098024588336, "dur":44237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024234346, "dur":513, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024234859, "dur":4323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024239190, "dur":8372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1671098024247567, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024247584, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1671098024249789, "dur":64080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671098024313875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024313887, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671098024315593, "dur":19787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024335386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024336112, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024337015, "dur":36777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024373798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024373808, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024374917, "dur":87464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024462386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024462396, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024463900, "dur":39098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024503001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024503029, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024504384, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024504535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024504543, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024505809, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024505952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024505959, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024507186, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024507324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024507331, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024508710, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024509516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024509523, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024513859, "dur":87522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024601385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671098024601393, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671098024602590, "dur":29969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024234376, "dur":491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024234867, "dur":4317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024239190, "dur":9317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1671098024248510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024248523, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1671098024250001, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671098024250179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024250186, "dur":276820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671098024527056, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024527223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024527230, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024529380, "dur":3078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024532461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024532468, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024536410, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024536559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024536566, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024538373, "dur":2621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024540997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024541004, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024544206, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024544407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024544413, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024545676, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024546011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024546017, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671098024547201, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1671098024547251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024547515, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1671098024548716, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671098024548765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024548770, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671098024552066, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1671098024552208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024552216, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1671098024553140, "dur":47457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1671098024600602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671098024600611, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1671098024601835, "dur":30751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671098024234548, "dur":326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671098024234874, "dur":4311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671098024239191, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671098024239373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671098024244766, "dur":315287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671098024560103, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1671098024560238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671098024560243, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1671098024561239, "dur":71317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024234563, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024234877, "dur":4304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024239191, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1671098024239366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024241391, "dur":8257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1671098024249709, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1671098024249828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024249938, "dur":65322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1671098024315325, "dur":38351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker.exe" }}
+,{ "pid":12345, "tid":6, "ts":1671098024353680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024353724, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker.exe" }}
+,{ "pid":12345, "tid":6, "ts":1671098024355822, "dur":24797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024380623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024380631, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024381778, "dur":19864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024401648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024401657, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024402857, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024403012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024403019, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024403906, "dur":18524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024422435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024422470, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024423537, "dur":19121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024442661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024442669, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024445880, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024446045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024446054, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024449182, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024449458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024449465, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024451323, "dur":33579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024484906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024484917, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024485926, "dur":27049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024512980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024512989, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024515031, "dur":94814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024609872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671098024609883, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671098024611190, "dur":21388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024234583, "dur":297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024234881, "dur":4302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024239189, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1671098024239370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024244508, "dur":70980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1671098024315557, "dur":65873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024381434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024381443, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024383762, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024383982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024383992, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024385119, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024385319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024385328, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024386429, "dur":1257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024387690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024387697, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024389925, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024390128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024390135, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024391461, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024391622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024391631, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024392695, "dur":23667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024416366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024416375, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024417258, "dur":26382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024443645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024443653, "dur":6037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024449738, "dur":25834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024475579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024475589, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024476620, "dur":21100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024497724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024497731, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024499500, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024499954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024499962, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024501113, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024501269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024501277, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024502442, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024502574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024502581, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024503751, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024503933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024503941, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024504968, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024505084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024505091, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024506036, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024506163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024506188, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024507321, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024507445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024507452, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024508902, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024509044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024509052, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024510260, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024510401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024510409, "dur":3901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024514364, "dur":81259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024595629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671098024595639, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671098024597108, "dur":35449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024234658, "dur":227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024234885, "dur":4303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024239190, "dur":9045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1671098024248238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024248253, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1671098024251076, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1671098024251184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024251191, "dur":65644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1671098024316881, "dur":42859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024359746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024359756, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024361409, "dur":28491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024389906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024389917, "dur":4301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024394265, "dur":42430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024436699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024436720, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024438568, "dur":29388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024467963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024467973, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024469076, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024469228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024469237, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024470946, "dur":22052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024493005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024493016, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024494075, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024494329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024494336, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024496955, "dur":58382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024555342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671098024555351, "dur":33103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671098024588503, "dur":44056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024234683, "dur":278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024234961, "dur":4219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024239189, "dur":28647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1671098024267840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024314185, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1671098024315163, "dur":3764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1671098024318933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024318941, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1671098024320736, "dur":43259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024364001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024364011, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024365087, "dur":22462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024387553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024387563, "dur":4866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024392482, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024392654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024392662, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024395913, "dur":46410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024442330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024442339, "dur":5021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024447413, "dur":23770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024471187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024471197, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024472375, "dur":1446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024473826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024473863, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024475978, "dur":18646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024494627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024494635, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024497403, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024497639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024497646, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024500142, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024500292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024500299, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024501327, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024501473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024501481, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024502885, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024503065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024503071, "dur":7587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024510707, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024511101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024511108, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024515405, "dur":99683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024615094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671098024615104, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671098024616655, "dur":15927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024234714, "dur":251, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024234965, "dur":4235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024239200, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1671098024239879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024241213, "dur":287242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1671098024528506, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024528764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024528771, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024531545, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024531877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024531884, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024533647, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024533782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024533789, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024534635, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024534855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024534861, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024538204, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024539363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024539370, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024541721, "dur":1174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024542899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024542905, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024545202, "dur":4404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024549609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024549616, "dur":4510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671098024554176, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1671098024554251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024554259, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1671098024556497, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1671098024556545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024556553, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1671098024558049, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1671098024558101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024558110, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1671098024559131, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1671098024559185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024559192, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1671098024560091, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1671098024560141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671098024560147, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1671098024561168, "dur":71387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024234768, "dur":200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024234968, "dur":4224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024239192, "dur":8745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1671098024247941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024247955, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1671098024249437, "dur":8935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1671098024258377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024258388, "dur":56692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1671098024315129, "dur":64927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024380062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024380070, "dur":19487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024399611, "dur":29199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024428817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024428827, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024430016, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024430242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024430250, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024431249, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024431494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024431502, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024432575, "dur":19130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024451709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024451718, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024452665, "dur":18815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024471483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024471491, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024472691, "dur":22714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024495409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024495417, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024497319, "dur":25926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024523250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024523260, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024524462, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024524685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024524693, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024525682, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024525838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024525846, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024526811, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024526964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024526973, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024528275, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024528453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024528460, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024531189, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024531349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024531377, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024533101, "dur":1034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024534139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024534145, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024536533, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024536758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024536764, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024538378, "dur":2077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024540458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024540466, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024543386, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024543817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024543824, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024546410, "dur":52716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024599133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671098024599659, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671098024600738, "dur":31852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024234784, "dur":187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024234971, "dur":4215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024239190, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1671098024239366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024244481, "dur":8846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1671098024253391, "dur":60548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024313943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024314009, "dur":5712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024319772, "dur":47988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024367766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024367775, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024369342, "dur":21360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024390723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024390731, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024391780, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024392088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024392096, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024393651, "dur":60305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024453961, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024453978, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024455346, "dur":38795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024494145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024494153, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024495714, "dur":135521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024631239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671098024631246, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/luukh/Desktop/infinite brickbreaker build/Infinite brick breaker_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671098024632531, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1671098024632534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671098024636651, "dur":2716, "ph":"X", "name": "ProfilerWriteOutput" }
+,
